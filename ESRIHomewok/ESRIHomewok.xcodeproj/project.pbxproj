@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2150F2F4242D95B200876BC7 /* NumberIcong5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2DA242D95B200876BC7 /* NumberIcong5.png */; };
+		2150F2F5242D95B200876BC7 /* NumberIcong16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2DB242D95B200876BC7 /* NumberIcong16.png */; };
+		2150F2F6242D95B200876BC7 /* NumberIcong13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2DC242D95B200876BC7 /* NumberIcong13.png */; };
+		2150F2F7242D95B200876BC7 /* NumberIcong22.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2DD242D95B200876BC7 /* NumberIcong22.png */; };
+		2150F2F8242D95B200876BC7 /* NumberIcong24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2DE242D95B200876BC7 /* NumberIcong24.png */; };
+		2150F2F9242D95B200876BC7 /* NumberIcong9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2DF242D95B200876BC7 /* NumberIcong9.png */; };
+		2150F2FA242D95B200876BC7 /* NumberIcong11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E0242D95B200876BC7 /* NumberIcong11.png */; };
+		2150F2FB242D95B200876BC7 /* NumberIcong23.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E1242D95B200876BC7 /* NumberIcong23.png */; };
+		2150F2FC242D95B200876BC7 /* NumberIcong25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E2242D95B200876BC7 /* NumberIcong25.png */; };
+		2150F2FD242D95B200876BC7 /* NumberIcong6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E3242D95B200876BC7 /* NumberIcong6.png */; };
+		2150F2FE242D95B200876BC7 /* NumberIcong19.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E4242D95B200876BC7 /* NumberIcong19.png */; };
+		2150F2FF242D95B200876BC7 /* NumberIcong20.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E5242D95B200876BC7 /* NumberIcong20.png */; };
+		2150F300242D95B200876BC7 /* NumberIcong10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E6242D95B200876BC7 /* NumberIcong10.png */; };
+		2150F301242D95B200876BC7 /* NumberIcong21.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E7242D95B200876BC7 /* NumberIcong21.png */; };
+		2150F302242D95B200876BC7 /* NumberIcong14.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E8242D95B200876BC7 /* NumberIcong14.png */; };
+		2150F303242D95B200876BC7 /* NumberIcong18.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2E9242D95B200876BC7 /* NumberIcong18.png */; };
+		2150F304242D95B200876BC7 /* NumberIcong1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2EA242D95B200876BC7 /* NumberIcong1.png */; };
+		2150F305242D95B200876BC7 /* NumberIcong8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2EB242D95B200876BC7 /* NumberIcong8.png */; };
+		2150F306242D95B200876BC7 /* NumberIcong3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2EC242D95B200876BC7 /* NumberIcong3.png */; };
+		2150F307242D95B200876BC7 /* NumberIcong17.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2ED242D95B200876BC7 /* NumberIcong17.png */; };
+		2150F308242D95B200876BC7 /* NumberIcong12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2EE242D95B200876BC7 /* NumberIcong12.png */; };
+		2150F309242D95B200876BC7 /* NumberIcong2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2EF242D95B200876BC7 /* NumberIcong2.png */; };
+		2150F30A242D95B200876BC7 /* NumberIcong7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2F0242D95B200876BC7 /* NumberIcong7.png */; };
+		2150F30B242D95B200876BC7 /* NumberIcong26.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2F1242D95B200876BC7 /* NumberIcong26.png */; };
+		2150F30C242D95B200876BC7 /* NumberIcong4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2F2242D95B200876BC7 /* NumberIcong4.png */; };
+		2150F30D242D95B200876BC7 /* NumberIcong15.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2F3242D95B200876BC7 /* NumberIcong15.png */; };
+		2150F312242DCB5C00876BC7 /* EsriCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2150F311242DCB5C00876BC7 /* EsriCell.m */; };
+		2150F314242FB3C700876BC7 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2150F313242FB3C700876BC7 /* splash.jpg */; };
+		21F0947A2427C58600A14E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F094792427C58600A14E96 /* AppDelegate.m */; };
+		21F0947D2427C58600A14E96 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F0947C2427C58600A14E96 /* SceneDelegate.m */; };
+		21F094802427C58600A14E96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F0947F2427C58600A14E96 /* ViewController.m */; };
+		21F094832427C58600A14E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F094812427C58600A14E96 /* Main.storyboard */; };
+		21F094852427C58700A14E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F094842427C58700A14E96 /* Assets.xcassets */; };
+		21F094882427C58700A14E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F094862427C58700A14E96 /* LaunchScreen.storyboard */; };
+		21F0948B2427C58700A14E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F0948A2427C58700A14E96 /* main.m */; };
+		21F094932427C61900A14E96 /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F094922427C61900A14E96 /* ArcGIS.framework */; };
+		21F094942427C61900A14E96 /* ArcGIS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21F094922427C61900A14E96 /* ArcGIS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB7288457F09EB1C318A1931 /* Pods_ESRIHomewok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B166EF638116DE35DF46DCFF /* Pods_ESRIHomewok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21F094952427C61900A14E96 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				21F094942427C61900A14E96 /* ArcGIS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2150F2DA242D95B200876BC7 /* NumberIcong5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong5.png; sourceTree = "<group>"; };
+		2150F2DB242D95B200876BC7 /* NumberIcong16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong16.png; sourceTree = "<group>"; };
+		2150F2DC242D95B200876BC7 /* NumberIcong13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong13.png; sourceTree = "<group>"; };
+		2150F2DD242D95B200876BC7 /* NumberIcong22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong22.png; sourceTree = "<group>"; };
+		2150F2DE242D95B200876BC7 /* NumberIcong24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong24.png; sourceTree = "<group>"; };
+		2150F2DF242D95B200876BC7 /* NumberIcong9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong9.png; sourceTree = "<group>"; };
+		2150F2E0242D95B200876BC7 /* NumberIcong11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong11.png; sourceTree = "<group>"; };
+		2150F2E1242D95B200876BC7 /* NumberIcong23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong23.png; sourceTree = "<group>"; };
+		2150F2E2242D95B200876BC7 /* NumberIcong25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong25.png; sourceTree = "<group>"; };
+		2150F2E3242D95B200876BC7 /* NumberIcong6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong6.png; sourceTree = "<group>"; };
+		2150F2E4242D95B200876BC7 /* NumberIcong19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong19.png; sourceTree = "<group>"; };
+		2150F2E5242D95B200876BC7 /* NumberIcong20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong20.png; sourceTree = "<group>"; };
+		2150F2E6242D95B200876BC7 /* NumberIcong10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong10.png; sourceTree = "<group>"; };
+		2150F2E7242D95B200876BC7 /* NumberIcong21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong21.png; sourceTree = "<group>"; };
+		2150F2E8242D95B200876BC7 /* NumberIcong14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong14.png; sourceTree = "<group>"; };
+		2150F2E9242D95B200876BC7 /* NumberIcong18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong18.png; sourceTree = "<group>"; };
+		2150F2EA242D95B200876BC7 /* NumberIcong1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong1.png; sourceTree = "<group>"; };
+		2150F2EB242D95B200876BC7 /* NumberIcong8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong8.png; sourceTree = "<group>"; };
+		2150F2EC242D95B200876BC7 /* NumberIcong3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong3.png; sourceTree = "<group>"; };
+		2150F2ED242D95B200876BC7 /* NumberIcong17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong17.png; sourceTree = "<group>"; };
+		2150F2EE242D95B200876BC7 /* NumberIcong12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong12.png; sourceTree = "<group>"; };
+		2150F2EF242D95B200876BC7 /* NumberIcong2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong2.png; sourceTree = "<group>"; };
+		2150F2F0242D95B200876BC7 /* NumberIcong7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong7.png; sourceTree = "<group>"; };
+		2150F2F1242D95B200876BC7 /* NumberIcong26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong26.png; sourceTree = "<group>"; };
+		2150F2F2242D95B200876BC7 /* NumberIcong4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong4.png; sourceTree = "<group>"; };
+		2150F2F3242D95B200876BC7 /* NumberIcong15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberIcong15.png; sourceTree = "<group>"; };
+		2150F310242DCB5C00876BC7 /* EsriCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EsriCell.h; sourceTree = "<group>"; };
+		2150F311242DCB5C00876BC7 /* EsriCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EsriCell.m; sourceTree = "<group>"; };
+		2150F313242FB3C700876BC7 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		21F094752427C58600A14E96 /* ESRIHomewok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESRIHomewok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F094782427C58600A14E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21F094792427C58600A14E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21F0947B2427C58600A14E96 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		21F0947C2427C58600A14E96 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		21F0947E2427C58600A14E96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21F0947F2427C58600A14E96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21F094822427C58600A14E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F094842427C58700A14E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F094872427C58700A14E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F094892427C58700A14E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F0948A2427C58700A14E96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F094922427C61900A14E96 /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = ../../../Library/SDKs/ArcGIS/iOS/Frameworks/Dynamic/ArcGIS.framework; sourceTree = "<group>"; };
+		5001A85AC917C1DAEE155D56 /* Pods-ESRIHomewok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESRIHomewok.release.xcconfig"; path = "Target Support Files/Pods-ESRIHomewok/Pods-ESRIHomewok.release.xcconfig"; sourceTree = "<group>"; };
+		586D6C6FE68A619164AC539B /* Pods-ESRIHomewok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESRIHomewok.debug.xcconfig"; path = "Target Support Files/Pods-ESRIHomewok/Pods-ESRIHomewok.debug.xcconfig"; sourceTree = "<group>"; };
+		B166EF638116DE35DF46DCFF /* Pods_ESRIHomewok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESRIHomewok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F094722427C58600A14E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F094932427C61900A14E96 /* ArcGIS.framework in Frameworks */,
+				AB7288457F09EB1C318A1931 /* Pods_ESRIHomewok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2150F2D9242D958E00876BC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2150F313242FB3C700876BC7 /* splash.jpg */,
+				21F094812427C58600A14E96 /* Main.storyboard */,
+				21F094892427C58700A14E96 /* Info.plist */,
+				21F094862427C58700A14E96 /* LaunchScreen.storyboard */,
+				21F094842427C58700A14E96 /* Assets.xcassets */,
+				2150F2EA242D95B200876BC7 /* NumberIcong1.png */,
+				2150F2EF242D95B200876BC7 /* NumberIcong2.png */,
+				2150F2EC242D95B200876BC7 /* NumberIcong3.png */,
+				2150F2F2242D95B200876BC7 /* NumberIcong4.png */,
+				2150F2DA242D95B200876BC7 /* NumberIcong5.png */,
+				2150F2E3242D95B200876BC7 /* NumberIcong6.png */,
+				2150F2F0242D95B200876BC7 /* NumberIcong7.png */,
+				2150F2EB242D95B200876BC7 /* NumberIcong8.png */,
+				2150F2DF242D95B200876BC7 /* NumberIcong9.png */,
+				2150F2E6242D95B200876BC7 /* NumberIcong10.png */,
+				2150F2E0242D95B200876BC7 /* NumberIcong11.png */,
+				2150F2EE242D95B200876BC7 /* NumberIcong12.png */,
+				2150F2DC242D95B200876BC7 /* NumberIcong13.png */,
+				2150F2E8242D95B200876BC7 /* NumberIcong14.png */,
+				2150F2F3242D95B200876BC7 /* NumberIcong15.png */,
+				2150F2DB242D95B200876BC7 /* NumberIcong16.png */,
+				2150F2ED242D95B200876BC7 /* NumberIcong17.png */,
+				2150F2E9242D95B200876BC7 /* NumberIcong18.png */,
+				2150F2E4242D95B200876BC7 /* NumberIcong19.png */,
+				2150F2E5242D95B200876BC7 /* NumberIcong20.png */,
+				2150F2E7242D95B200876BC7 /* NumberIcong21.png */,
+				2150F2DD242D95B200876BC7 /* NumberIcong22.png */,
+				2150F2E1242D95B200876BC7 /* NumberIcong23.png */,
+				2150F2DE242D95B200876BC7 /* NumberIcong24.png */,
+				2150F2E2242D95B200876BC7 /* NumberIcong25.png */,
+				2150F2F1242D95B200876BC7 /* NumberIcong26.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2150F30E242DCA4600876BC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21F094782427C58600A14E96 /* AppDelegate.h */,
+				21F094792427C58600A14E96 /* AppDelegate.m */,
+				21F0947E2427C58600A14E96 /* ViewController.h */,
+				21F0947F2427C58600A14E96 /* ViewController.m */,
+				21F0947B2427C58600A14E96 /* SceneDelegate.h */,
+				21F0947C2427C58600A14E96 /* SceneDelegate.m */,
+				21F0948A2427C58700A14E96 /* main.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2150F30F242DCB2500876BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2150F310242DCB5C00876BC7 /* EsriCell.h */,
+				2150F311242DCB5C00876BC7 /* EsriCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21F0946C2427C58600A14E96 = {
+			isa = PBXGroup;
+			children = (
+				21F094772427C58600A14E96 /* ESRIHomewok */,
+				21F094762427C58600A14E96 /* Products */,
+				21F094912427C61900A14E96 /* Frameworks */,
+				2811659AA89BD5746B182E41 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		21F094762427C58600A14E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F094752427C58600A14E96 /* ESRIHomewok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F094772427C58600A14E96 /* ESRIHomewok */ = {
+			isa = PBXGroup;
+			children = (
+				2150F30F242DCB2500876BC7 /* View */,
+				2150F30E242DCA4600876BC7 /* Controller */,
+				2150F2D9242D958E00876BC7 /* Resources */,
+			);
+			path = ESRIHomewok;
+			sourceTree = "<group>";
+		};
+		21F094912427C61900A14E96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F094922427C61900A14E96 /* ArcGIS.framework */,
+				B166EF638116DE35DF46DCFF /* Pods_ESRIHomewok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2811659AA89BD5746B182E41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				586D6C6FE68A619164AC539B /* Pods-ESRIHomewok.debug.xcconfig */,
+				5001A85AC917C1DAEE155D56 /* Pods-ESRIHomewok.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F094742427C58600A14E96 /* ESRIHomewok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F0948E2427C58700A14E96 /* Build configuration list for PBXNativeTarget "ESRIHomewok" */;
+			buildPhases = (
+				4D6943972568F833407DB9D0 /* [CP] Check Pods Manifest.lock */,
+				21F094712427C58600A14E96 /* Sources */,
+				21F094722427C58600A14E96 /* Frameworks */,
+				21F094732427C58600A14E96 /* Resources */,
+				21F094952427C61900A14E96 /* Embed Frameworks */,
+				21F094962427C98500A14E96 /* ShellScript */,
+				165BE8ACF47450BCAA263C21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESRIHomewok;
+			productName = ESRIHomewok;
+			productReference = 21F094752427C58600A14E96 /* ESRIHomewok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F0946D2427C58600A14E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "赵龙";
+				TargetAttributes = {
+					21F094742427C58600A14E96 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 21F094702427C58600A14E96 /* Build configuration list for PBXProject "ESRIHomewok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F0946C2427C58600A14E96;
+			productRefGroup = 21F094762427C58600A14E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F094742427C58600A14E96 /* ESRIHomewok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F094732427C58600A14E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2150F303242D95B200876BC7 /* NumberIcong18.png in Resources */,
+				21F094882427C58700A14E96 /* LaunchScreen.storyboard in Resources */,
+				2150F2F6242D95B200876BC7 /* NumberIcong13.png in Resources */,
+				2150F2F4242D95B200876BC7 /* NumberIcong5.png in Resources */,
+				2150F30C242D95B200876BC7 /* NumberIcong4.png in Resources */,
+				2150F2FA242D95B200876BC7 /* NumberIcong11.png in Resources */,
+				2150F304242D95B200876BC7 /* NumberIcong1.png in Resources */,
+				2150F2FC242D95B200876BC7 /* NumberIcong25.png in Resources */,
+				2150F2F8242D95B200876BC7 /* NumberIcong24.png in Resources */,
+				2150F305242D95B200876BC7 /* NumberIcong8.png in Resources */,
+				21F094852427C58700A14E96 /* Assets.xcassets in Resources */,
+				2150F309242D95B200876BC7 /* NumberIcong2.png in Resources */,
+				2150F2F5242D95B200876BC7 /* NumberIcong16.png in Resources */,
+				2150F2F7242D95B200876BC7 /* NumberIcong22.png in Resources */,
+				2150F30A242D95B200876BC7 /* NumberIcong7.png in Resources */,
+				2150F2FB242D95B200876BC7 /* NumberIcong23.png in Resources */,
+				2150F302242D95B200876BC7 /* NumberIcong14.png in Resources */,
+				2150F2FF242D95B200876BC7 /* NumberIcong20.png in Resources */,
+				2150F306242D95B200876BC7 /* NumberIcong3.png in Resources */,
+				2150F308242D95B200876BC7 /* NumberIcong12.png in Resources */,
+				21F094832427C58600A14E96 /* Main.storyboard in Resources */,
+				2150F30D242D95B200876BC7 /* NumberIcong15.png in Resources */,
+				2150F2FD242D95B200876BC7 /* NumberIcong6.png in Resources */,
+				2150F307242D95B200876BC7 /* NumberIcong17.png in Resources */,
+				2150F314242FB3C700876BC7 /* splash.jpg in Resources */,
+				2150F30B242D95B200876BC7 /* NumberIcong26.png in Resources */,
+				2150F2F9242D95B200876BC7 /* NumberIcong9.png in Resources */,
+				2150F301242D95B200876BC7 /* NumberIcong21.png in Resources */,
+				2150F300242D95B200876BC7 /* NumberIcong10.png in Resources */,
+				2150F2FE242D95B200876BC7 /* NumberIcong19.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165BE8ACF47450BCAA263C21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESRIHomewok/Pods-ESRIHomewok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESRIHomewok/Pods-ESRIHomewok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESRIHomewok/Pods-ESRIHomewok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F094962427C98500A14E96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework/strip-frameworks.sh\"\n";
+		};
+		4D6943972568F833407DB9D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESRIHomewok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F094712427C58600A14E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F094802427C58600A14E96 /* ViewController.m in Sources */,
+				2150F312242DCB5C00876BC7 /* EsriCell.m in Sources */,
+				21F0947A2427C58600A14E96 /* AppDelegate.m in Sources */,
+				21F0948B2427C58700A14E96 /* main.m in Sources */,
+				21F0947D2427C58600A14E96 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21F094812427C58600A14E96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F094822427C58600A14E96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21F094862427C58700A14E96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F094872427C58700A14E96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F0948C2427C58700A14E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21F0948D2427C58700A14E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F0948F2427C58700A14E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586D6C6FE68A619164AC539B /* Pods-ESRIHomewok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJ39AX974;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Dynamic",
+				);
+				INFOPLIST_FILE = ESRIHomewok/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NsLonger.ESRIHomewok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F094902427C58700A14E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5001A85AC917C1DAEE155D56 /* Pods-ESRIHomewok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJ39AX974;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Dynamic",
+				);
+				INFOPLIST_FILE = ESRIHomewok/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NsLonger.ESRIHomewok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F094702427C58600A14E96 /* Build configuration list for PBXProject "ESRIHomewok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0948C2427C58700A14E96 /* Debug */,
+				21F0948D2427C58700A14E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F0948E2427C58700A14E96 /* Build configuration list for PBXNativeTarget "ESRIHomewok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0948F2427C58700A14E96 /* Debug */,
+				21F094902427C58700A14E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F0946D2427C58600A14E96 /* Project object */;
+}
