@@ -59,9 +59,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //splash
+    [UIView animateWithDuration:0.5f delay:2.0f options:UIViewAnimationOptionLayoutSubviews animations:^{
+        self.splashView.alpha = 0;
+    } completion:^ (BOOL finish) {
+        [self.splashView removeFromSuperview];
+    }];
+    
     self.headerView.userInteractionEnabled = NO;
-    self.FeatureTableview.userInteractionEnabled = NO;
-    self.DetailView.userInteractionEnabled = NO;
     
     self.featureDataSource = [NSMutableArray arrayWithCapacity:10];
     self.imageDataSource = [NSMutableDictionary dictionaryWithCapacity:10];
@@ -128,6 +133,7 @@
                         [self.mapView setViewpointCenter:point scale:7000.0f completion:nil];
                         [self.FeatureTableview selectRowAtIndexPath:[NSIndexPath indexPathForRow:i inSection:0] animated:NO scrollPosition:UITableViewScrollPositionTop];
                         [self detailDidChange];
+                        [self descriptionButtonClicked:nil];
                     }
                 }
             }
@@ -142,7 +148,6 @@
     //The last feature layer we encounter we will use for editing features
     //If the web map contains more than one feature layer, the sample may need to be modified to handle that
     if([layer isKindOfClass:[AGSFeatureLayer class]]){
-        
         
         dispatch_async(dispatch_get_main_queue(), ^{
         
@@ -159,7 +164,10 @@
              if (!error && result.featureEnumerator.allObjects.count > 0) {
                 //Result
                 self.featureDataSource = [NSMutableArray arrayWithArray:result.featureEnumerator.allObjects];
+                [self.FeatureTableview reloadData];
+                [self detailDidChange];
                 [self featureQueryDidComplete];
+                 
              }
          }];
         });
@@ -170,26 +178,18 @@
 {
     NSOperationQueue *queue = [[NSOperationQueue alloc] init];
     queue.maxConcurrentOperationCount = 3;
-        
+    
+    // async to mainqueue
+    [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+        //stop loadIndicator
+        if ([self.loadIndicator isAnimating]) {
+            [self.loadIndicator stopAnimating];
+        }
+        self.headerView.userInteractionEnabled = YES;
+    }];
+    
     NSBlockOperation *oparationFinish = [NSBlockOperation blockOperationWithBlock:^{
-        
-        // async to mainqueue
-        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-            NSLog(@"image array download complete");
-
-            [self.FeatureTableview reloadData];
-            [self detailDidChange];
-            
-            //stop loadIndicator
-            if ([self.loadIndicator isAnimating]) {
-                [self.loadIndicator stopAnimating];
-            }
-            
-            self.headerView.userInteractionEnabled = YES;
-            self.FeatureTableview.userInteractionEnabled = YES;
-            self.DetailView.userInteractionEnabled = YES;
-        }];
-
+        NSLog(@"image array download all complete");
     }];
     
     NSMutableArray * opAry = [NSMutableArray arrayWithCapacity:100];
@@ -204,13 +204,32 @@
                 NSData *data = [NSData dataWithContentsOfURL:url];
                 UIImage *downloadImage = [UIImage sd_imageWithData:data];
 
-                if (downloadImage) {
-                    
-                    // add to dictionary in lock
-                    [dictionary_lock lock];
-                    [self.imageDataSource setObject:downloadImage forKey:objIdStr];
-                    [dictionary_lock unlock];
+                if (!downloadImage) {
+                    downloadImage = [UIImage imageNamed:@"LoadFail"];
                 }
+                
+                // add to dictionary in lock
+                [dictionary_lock lock];
+                [self.imageDataSource setObject:downloadImage forKey:objIdStr];
+                [dictionary_lock unlock];
+                
+                // async to mainqueue
+                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                    NSLog(@"image array download complete ObjectId = %@",object.attributes[@"ObjectId"]);
+                    
+                    NSIndexPath * indexPath = [NSIndexPath indexPathForRow:[object.attributes[@"ObjectId"] intValue]-1 inSection:0];
+
+                    NSInteger selectedRow = self.FeatureTableview.indexPathForSelectedRow.row;
+                    
+                    [self.FeatureTableview reloadRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath,nil] withRowAnimation:UITableViewRowAnimationNone];
+                    
+                    if (indexPath.row==selectedRow) {
+                        [self.FeatureTableview selectRowAtIndexPath:[NSIndexPath indexPathForRow:selectedRow inSection:0] animated:NO scrollPosition:UITableViewScrollPositionTop];
+                        [self detailDidChange];
+                    }
+                }];
+                
+                
             }];
             [oparationFinish addDependency:oparation];
             [opAry addObject:oparation];
@@ -230,7 +249,7 @@
 
 
 - (void)mapDidLoad {
-    //do sth when mapDidload
+    //do sth
 }
 
 -(void)layer:(AGSLayer *)layer didFailToLoadWithError:(NSError *)error{
@@ -302,6 +321,7 @@
 - (void)detailDidChange
 {
     NSInteger selectedRow = self.FeatureTableview.indexPathForSelectedRow.row;
+    NSLog(@"detailDidChange row = %d",selectedRow);
     if (selectedRow==0) {
         [self.DetailPrevious setEnabled:NO];
     }
@@ -319,7 +339,6 @@
         [self.DetailNext setEnabled:YES];
     }
     
-    
     AGSFeature *feature = self.featureDataSource[selectedRow];
     
     UIImage * numImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@%d",@"NumberIcong",[feature.attributes[@"ObjectId"] intValue]]];
@@ -330,6 +349,9 @@
     
     NSString * objIdStr = [NSString stringWithFormat:@"%d",[feature.attributes[@"ObjectId"] intValue]];
     UIImage * image = self.imageDataSource[objIdStr];
+    if (!image) {
+        image = [UIImage imageNamed:@"imagePlaceholderBig"];
+    }
     
     self.DetailImage.backgroundColor = [UIColor whiteColor];
     self.DetailImage.image = image;

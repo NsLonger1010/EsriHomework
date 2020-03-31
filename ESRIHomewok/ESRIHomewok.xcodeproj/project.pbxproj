@@ -35,6 +35,9 @@
 		2150F30D242D95B200876BC7 /* NumberIcong15.png in Resources */ = {isa = PBXBuildFile; fileRef = 2150F2F3242D95B200876BC7 /* NumberIcong15.png */; };
 		2150F312242DCB5C00876BC7 /* EsriCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2150F311242DCB5C00876BC7 /* EsriCell.m */; };
 		2150F314242FB3C700876BC7 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2150F313242FB3C700876BC7 /* splash.jpg */; };
+		219FEB90243354DE00373307 /* imagePlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 219FEB8F243354DE00373307 /* imagePlaceholder.png */; };
+		219FEB92243358D600373307 /* imagePlaceholderBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 219FEB91243358D600373307 /* imagePlaceholderBig.png */; };
+		219FEB942433661100373307 /* LoadFail.png in Resources */ = {isa = PBXBuildFile; fileRef = 219FEB932433661100373307 /* LoadFail.png */; };
 		21F0947A2427C58600A14E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F094792427C58600A14E96 /* AppDelegate.m */; };
 		21F0947D2427C58600A14E96 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F0947C2427C58600A14E96 /* SceneDelegate.m */; };
 		21F094802427C58600A14E96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F0947F2427C58600A14E96 /* ViewController.m */; };
@@ -91,6 +94,9 @@
 		2150F310242DCB5C00876BC7 /* EsriCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EsriCell.h; sourceTree = "<group>"; };
 		2150F311242DCB5C00876BC7 /* EsriCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EsriCell.m; sourceTree = "<group>"; };
 		2150F313242FB3C700876BC7 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		219FEB8F243354DE00373307 /* imagePlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagePlaceholder.png; sourceTree = "<group>"; };
+		219FEB91243358D600373307 /* imagePlaceholderBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagePlaceholderBig.png; sourceTree = "<group>"; };
+		219FEB932433661100373307 /* LoadFail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadFail.png; sourceTree = "<group>"; };
 		21F094752427C58600A14E96 /* ESRIHomewok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESRIHomewok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F094782427C58600A14E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21F094792427C58600A14E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +131,9 @@
 		2150F2D9242D958E00876BC7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				219FEB932433661100373307 /* LoadFail.png */,
+				219FEB91243358D600373307 /* imagePlaceholderBig.png */,
+				219FEB8F243354DE00373307 /* imagePlaceholder.png */,
 				2150F313242FB3C700876BC7 /* splash.jpg */,
 				21F094812427C58600A14E96 /* Main.storyboard */,
 				21F094892427C58700A14E96 /* Info.plist */,
@@ -292,9 +301,11 @@
 			files = (
 				2150F303242D95B200876BC7 /* NumberIcong18.png in Resources */,
 				21F094882427C58700A14E96 /* LaunchScreen.storyboard in Resources */,
+				219FEB92243358D600373307 /* imagePlaceholderBig.png in Resources */,
 				2150F2F6242D95B200876BC7 /* NumberIcong13.png in Resources */,
 				2150F2F4242D95B200876BC7 /* NumberIcong5.png in Resources */,
 				2150F30C242D95B200876BC7 /* NumberIcong4.png in Resources */,
+				219FEB90243354DE00373307 /* imagePlaceholder.png in Resources */,
 				2150F2FA242D95B200876BC7 /* NumberIcong11.png in Resources */,
 				2150F304242D95B200876BC7 /* NumberIcong1.png in Resources */,
 				2150F2FC242D95B200876BC7 /* NumberIcong25.png in Resources */,
@@ -317,6 +328,7 @@
 				2150F314242FB3C700876BC7 /* splash.jpg in Resources */,
 				2150F30B242D95B200876BC7 /* NumberIcong26.png in Resources */,
 				2150F2F9242D95B200876BC7 /* NumberIcong9.png in Resources */,
+				219FEB942433661100373307 /* LoadFail.png in Resources */,
 				2150F301242D95B200876BC7 /* NumberIcong21.png in Resources */,
 				2150F300242D95B200876BC7 /* NumberIcong10.png in Resources */,
 				2150F2FE242D95B200876BC7 /* NumberIcong19.png in Resources */,

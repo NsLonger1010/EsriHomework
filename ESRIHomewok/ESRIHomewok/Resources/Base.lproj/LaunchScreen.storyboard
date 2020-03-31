@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,9 +13,59 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3cU-Vp-Lwa">
+                                <rect key="frame" x="0.0" y="94" width="414" height="802"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9YJ-n4-Ohz">
+                                        <rect key="frame" x="16" y="173" width="382" height="255.5"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GWN-hW-eSF">
+                                        <rect key="frame" x="20" y="177" width="374" height="247.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="GWN-hW-eSF" secondAttribute="height" multiplier="1000:661" id="ign-wf-UYS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EsriHomework-ZhaoLong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGg-DT-oTm">
+                                        <rect key="frame" x="36" y="91" width="342" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="加载完成前，列表与详情不可点击" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkP-4G-qkX">
+                                        <rect key="frame" x="77" y="509.5" width="260" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.66666666669999997" green="0.69019607839999997" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="9YJ-n4-Ohz" firstAttribute="bottom" secondItem="GWN-hW-eSF" secondAttribute="bottom" constant="4" id="645-LK-8g8"/>
+                                    <constraint firstItem="GWN-hW-eSF" firstAttribute="centerX" secondItem="3cU-Vp-Lwa" secondAttribute="centerX" id="7Ka-1J-CwL"/>
+                                    <constraint firstAttribute="trailing" secondItem="GWN-hW-eSF" secondAttribute="trailing" constant="20" id="8D5-3x-Mcs"/>
+                                    <constraint firstItem="rkP-4G-qkX" firstAttribute="centerX" secondItem="3cU-Vp-Lwa" secondAttribute="centerX" id="9nC-gq-b07"/>
+                                    <constraint firstItem="GWN-hW-eSF" firstAttribute="leading" secondItem="3cU-Vp-Lwa" secondAttribute="leading" constant="20" id="ARk-dt-cmw"/>
+                                    <constraint firstItem="oGg-DT-oTm" firstAttribute="centerX" secondItem="3cU-Vp-Lwa" secondAttribute="centerX" id="Buu-wW-GbW"/>
+                                    <constraint firstItem="9YJ-n4-Ohz" firstAttribute="leading" secondItem="GWN-hW-eSF" secondAttribute="leading" constant="-4" id="JdU-ni-n5I"/>
+                                    <constraint firstItem="9YJ-n4-Ohz" firstAttribute="top" secondItem="GWN-hW-eSF" secondAttribute="top" constant="-4" id="S1X-B0-iIj"/>
+                                    <constraint firstItem="9YJ-n4-Ohz" firstAttribute="trailing" secondItem="GWN-hW-eSF" secondAttribute="trailing" constant="4" id="UBy-NT-Is7"/>
+                                    <constraint firstItem="rkP-4G-qkX" firstAttribute="top" secondItem="GWN-hW-eSF" secondAttribute="bottom" constant="85" id="a1a-eA-ceV"/>
+                                    <constraint firstItem="GWN-hW-eSF" firstAttribute="top" secondItem="oGg-DT-oTm" secondAttribute="bottom" constant="50" id="hGd-B3-8De"/>
+                                    <constraint firstItem="GWN-hW-eSF" firstAttribute="centerY" secondItem="3cU-Vp-Lwa" secondAttribute="centerY" multiplier="0.75" id="j7X-Dy-g3m"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66666666666666663" green="0.69019607843137254" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3cU-Vp-Lwa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="516-PR-G3n"/>
+                            <constraint firstAttribute="bottom" secondItem="3cU-Vp-Lwa" secondAttribute="bottom" id="EVv-Zy-YQ2"/>
+                            <constraint firstAttribute="trailing" secondItem="3cU-Vp-Lwa" secondAttribute="trailing" id="Sf3-LO-Zkc"/>
+                            <constraint firstItem="3cU-Vp-Lwa" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="gTy-HY-sGS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +74,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="splash.jpg" width="1000" height="661"/>
+    </resources>
 </document>

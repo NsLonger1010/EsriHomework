@@ -78,6 +78,8 @@
             
         }
         
+        if (!self.isDraw) return ;
+        
         if (self.attributes[@"Description"]) {
             
             NSString * description = self.attributes[@"Description"];
@@ -89,6 +91,8 @@
                             textColor:[UIColor blackColor]
                              textFont:[UIFont systemFontOfSize:13]];
         }
+        
+        if (!self.isDraw) return ;
         
         if (self.downloadImage) {
 
@@ -104,6 +108,23 @@
                                    context:context
                                       rect:CGRectMake(50-32, 40-32, 64, 64)];
         }
+        else
+        {
+            UIImage * placeholderImage = [UIImage imageNamed:@"imagePlaceholder"];
+            [self p_drawWithNormalImage:placeholderImage
+                                context:context
+                          imagePosition:CGPointMake(50-32, 40-32)
+                             imageWidth:64
+                            imageHeight:64
+                          imageClipRect:CGRectZero];
+            
+            [self p_drawRectangleWithColor:[UIColor whiteColor]
+                                   context:context
+                                      rect:CGRectMake(50-32, 40-32, 64, 64)];
+            
+        }
+        
+        if (!self.isDraw) return ;
         
         if (self.attributes[@"ObjectId"]) {
             int objectId = [self.attributes[@"ObjectId"] intValue];
